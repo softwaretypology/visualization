@@ -4209,7 +4209,8 @@ function wrap(text, depth) {
 start()
 var title = document.createElement("div");
 title.classList.add("title");
-title.innerHTML = "Click on the node(s)";
+title.innerHTML = "Click on the nodes to see the next level";
+document.getElementById("title").style.color = "red";
 document.body.prepend(title);
 }
 
